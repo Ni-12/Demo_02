@@ -1,0 +1,456 @@
+       /* 字體引用 */
+       @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+       /* 網頁樣式 */
+       body {
+           font-family: 'cwTeXYen', Courier New;
+           color: #4850b3;
+           margin: 0px;
+           overflow-x: hidden;
+           font-weight: bold;
+       }
+
+       /* 封面樣式 */
+       .first {
+           width: 100vw;
+           height: 100vh;
+           background-color: #161313;
+           font-size: 64px;
+           text-align: center;
+       }
+
+       /* Meber Info樣式 */
+       .ONF1 {
+           width: 100vw;
+           height: 100vh;
+           background-color: #161313;
+           font-size: 48px;
+           text-align: center;
+           position: relative;
+       }
+
+       /* MV Teaser樣式 */
+       .ONF2 {
+           width: 100vw;
+           height: 100vh;
+           background-color: #161313;
+           font-size: 48px;
+           text-align: center;
+       }
+
+       /* 大-白色圓角區塊樣式 */
+       #info {
+           font-size: 30px;
+           background-color: white;
+           opacity: 0.9;
+           width: 90%;
+           height: 85%;
+           border-radius: 30px;
+           left: 4.5%;
+           top: 12%;
+           position: absolute;
+       }
+
+       /*----封面----*/
+
+       /* 封面 頁面大小*/
+       #bb {
+
+           position: absolute;
+           width: 98.75vw;
+           height: 100vh;
+       }
+
+       /* 封面 logo + 小介紹 的區塊*/
+       #meberbox2 {
+           width: 1000px;
+           height: 500px;
+           position: relative;
+           left: 17.5%;
+           top: 16%;
+       }
+
+       /* 封面 logo區塊*/
+       #name1 {
+           position: absolute;
+           width: 275px;
+           height: 275px;
+           top: 23.5%;
+           left: 10.5%;
+           border-radius: 50%;
+           box-shadow: 0px 0px 5px 3px #fffffe;
+           transition: all 1s linear;
+       }
+
+       #name1:hover {
+           box-shadow: 0px 0px 20px 3px #e3d500;
+       }
+
+       /* 封面 logo照片大小*/
+       #name1 img {
+           width: 100%;
+           height: 100%;
+           border-radius: 50%;
+       }
+
+       /* 封面 ONF小介紹區塊*/
+       #ONFInfo2 {
+           font-size: 30px;
+           opacity: 0.9;
+           width: 425px;
+           height: 250px;
+           left: 50%;
+           top: 25%;
+           color: rgb(254, 205, 72);
+           position: absolute;
+           transition: all 2s linear;
+       }
+
+       /*---- Meber Info ----*/
+
+       /* Meber Info-左 成員照片區塊 */
+       #meberbox {
+           width: 700px;
+           height: 550px;
+           position: relative;
+           left: 8%;
+           top: 5%;
+       }
+
+       /* Meber Info-左 成員照片翻轉的css */
+       .cardWrapper {
+           width: 200px;
+           height: 275px;
+           position: relative;
+           float: left;
+           margin-right: 30px;
+           margin-top: 10px;
+           cursor: pointer;
+           -webkit-font-smoothing: antialiased;
+
+       }
+
+       .cardFace {
+           position: absolute;
+           width: 200px;
+           height: 270px;
+           overflow: hidden;
+       }
+
+       /* Meber Info-左 成員照片*/
+       .cardFace img {
+           width: auto;
+           height: 95%;
+           border-radius: 5%;
+       }
+
+       /* Meber Info-左 成員照片for陰影效果*/
+       #hh {
+           transition: all 1.75s ease;
+       }
+
+       #ee {
+           transition: all 1.75s ease;
+       }
+
+       #jj {
+           transition: all 1.75s ease;
+       }
+
+       #ww {
+           transition: all 1.75s ease;
+       }
+
+       #mm {
+           transition: all 1.75s ease;
+       }
+
+       #uu {
+           transition: all 1.75s ease;
+       }
+
+       /*??????????? */
+       #info2 {
+           width: 400px;
+           height: 550px;
+           /* border: solid lightsalmon;*/
+           position: absolute;
+           right: 5%;
+           top: 5%;
+           text-align: center;
+       }
+
+       /* Meber Info-右 團體介紹區塊 */
+       #ONFInfo {
+           font-size: 30px;
+           background-color: black;
+           opacity: 0.9;
+           width: 450px;
+           height: 500px;
+           border-radius: 30px;
+           right: 6.8%;
+           top: 9%;
+           color: rgb(254, 205, 72);
+           position: absolute;
+           transition: all 2s linear;
+       }
+
+       /* Meber Info-右 團體介紹區塊的標頭 */
+       #headname2 {
+           position: absolute;
+           top: 10%;
+           left: 42%;
+           text-align: center;
+           color: white;
+       }
+
+       /* Meber Info-右 團體介紹內文的區塊 */
+       #infoimg2 {
+           width: 90%;
+           height: auto;
+           position: absolute;
+           left: 5%;
+           top: 30%;
+       }
+
+       /* Meber Info-右 成員彈出介紹區塊 */
+       #meberInfo {
+           font-size: 30px;
+           background-color: black;
+           opacity: 0.9;
+           width: 450px;
+           height: 500px;
+           border-radius: 30px;
+           right: 6.8%;
+           top: 9%;
+           color: rgb(254, 205, 72);
+           position: absolute;
+       }
+
+       /* Meber Info-右 成員彈出介紹區塊的標頭*/
+       #headname {
+           position: absolute;
+           top: 10%;
+           left: 34%;
+           text-align: center;
+           color: white;
+       }
+
+       /* Meber Info-右 成員彈出介紹區塊的叉叉 */
+       #xxx {
+           position: absolute;
+           right: 6%;
+           top: 5%;
+           opacity: 0.9;
+           cursor: pointer;
+       }
+
+       /* Meber Info-右 成員彈出介紹內文的區塊*/
+       #infoimg {
+           width: 90%;
+           height: auto;
+           position: absolute;
+           left: 5%;
+           top: 30%;
+       }
+
+       /*---- MV Teaser ----*/
+
+       /* MV Teaser-左 專輯介紹(圖片)區塊 */
+       .VideoInfo {
+           width: 900px;
+           height: auto;
+           position: absolute;
+           top: 8.2%;
+           left: 6%;
+           border-radius: 30px;
+           opacity: 1;
+           transition: all 0.5s linear;
+
+       }
+
+       /* MV Teaser-左 影片區塊 */
+       .Video {
+           width: 900px;
+           height: auto;
+           position: absolute;
+           top: 8.2%;
+           left: 6%;
+           opacity: 0;
+           border-radius: 30px;
+           transition: all 0.5s linear;
+       }
+
+       /* MV Teaser-右 按鈕區塊 */
+       #list {
+           width: 450px;
+           height: 500px;
+           right: -9%;
+           top: 3.5%;
+           position: absolute;
+           text-align: left;
+       }
+
+       /* MV Teaser-右 ON/OFF */
+       #nav1 {
+           position: absolute;
+           top: 12%;
+           width: 65%;
+           color: #161313;
+           text-align: center;
+           font-size: 70%;
+           transform: translate(0, 0);
+           transition: all 0.7s ease;
+           cursor: pointer;
+           text-align: left;
+
+       }
+
+       #nav1:hover {
+           transform: translate(0, -15px);
+       }
+
+       /* MV Teaser-右 Complete */
+       #nav2 {
+           position: absolute;
+           top: 22%;
+           width: 65%;
+           color: #161313;
+           text-align: center;
+           font-size: 70%;
+           transform: translate(0, 0);
+           transition: all 0.7s ease;
+           cursor: pointer;
+           text-align: left;
+       }
+
+       #nav2:hover {
+           transform: translate(0, -15px);
+       }
+
+       /* MV Teaser-右 We Must Love */
+       #nav3 {
+           position: absolute;
+           top: 32%;
+           width: 65%;
+           color: #161313;
+           text-align: center;
+           font-size: 70%;
+           transform: translate(0, 0);
+           transition: all 0.7s ease;
+           cursor: pointer;
+           text-align: left;
+       }
+
+       #nav3:hover {
+           transform: translate(0, -15px);
+       }
+
+       /* MV Teaser-右 Why */
+       #nav4 {
+           position: absolute;
+           top: 42%;
+           width: 65%;
+           color: #161313;
+           text-align: center;
+           font-size: 70%;
+           transform: translate(0, 0);
+           transition: all 0.7s ease;
+           cursor: pointer;
+           text-align: left;
+       }
+
+       #nav4:hover {
+           transform: translate(0, -15px);
+       }
+
+       /* MV Teaser-右 Sukhumvit Swimming */
+       #nav5 {
+           position: absolute;
+           top: 52%;
+           width: 65%;
+           color: #161313;
+           text-align: center;
+           font-size: 70%;
+           transform: translate(0, 0);
+           transition: all 0.7s ease;
+           cursor: pointer;
+           text-align: left;
+       }
+
+       #nav5:hover {
+           transform: translate(0, -15px);
+       }
+
+       /* MV Teaser-右 Beautiful Beautiful */
+       #nav6 {
+           position: absolute;
+           top: 62%;
+           width: 65%;
+           color: #161313;
+           text-align: center;
+           font-size: 70%;
+           transform: translate(0, 0);
+           transition: all 0.7s ease;
+           cursor: pointer;
+           text-align: left;
+       }
+
+       #nav6:hover {
+           transform: translate(0, -15px);
+       }
+
+       /* MV Teaser-右 Ugly Dance */
+       #nav7 {
+           position: absolute;
+           top: 72%;
+           width: 65%;
+           color: #161313;
+           text-align: center;
+           font-size: 70%;
+           transform: translate(0, 0);
+           transition: all 0.7s ease;
+           cursor: pointer;
+           text-align: left;
+       }
+
+       #nav7:hover {
+           transform: translate(0, -15px);
+       }
+
+       /* MV Teaser-右 ONF offical */
+       #youtube {
+           position: absolute;
+           top: 82%;
+           width: 65%;
+           color: #161313;
+           text-align: center;
+           font-size: 70%;
+           transform: translate(0, 0);
+           transition: all 0.7s ease;
+           cursor: pointer;
+           text-align: left;
+       }
+
+       #youtube:hover {
+           transform: translate(0, -15px);
+       }
+
+       /* MV Teaser-右 MV Full ver. */
+       #youtube2 {
+           position: absolute;
+           top: 92%;
+           width: 65%;
+           color: #161313;
+           text-align: center;
+           font-size: 70%;
+           transform: translate(0, 0);
+           transition: all 0.7s ease;
+           cursor: pointer;
+           text-align: left;
+           opacity: 0;
+       }
+
+       #youtube2:hover {
+           transform: translate(0, -15px);
+       }
