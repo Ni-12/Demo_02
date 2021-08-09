@@ -11,5 +11,6 @@
   ![image](https://github.com/Ni-12/Demo_02/blob/main/screenshot_b/teaser.JPG)  
 * Teaser -- 影片結束會跳出專輯介紹 (JavaScript)
   ![image](https://github.com/Ni-12/Demo_02/blob/main/screenshot_b/teaser02.JPG)  
-    
+  
+網頁缺點 -- 未做RWD    
 #HTML #CSS #JavaScript #GreenSock
